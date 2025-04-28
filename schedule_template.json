@@ -1,0 +1,6 @@
+{"azure": [{"job_name": "an azure job test","command": "python3 job.py","output": "sudo cat done.txt",
+            "location": "West US","location_switch": false,"time_sensitive": true,"percentile_threshold": 100}],
+"aws": [{"job_name": "an aws job test","command": "python3 job.py","output": "sudo cat done.txt",
+        "location": "us-west-1","location_switch": false,"time_sensitive": true,"percentile_threshold": 60}],
+"azure_vms": [{"vm_name": "","resource_group_name": "","host": "","username": "","pkey_path": "","location": "West US"}],
+"aws_vms": [{"vm_name": "","host": "","username": "","pkey_path": "","location": "us-west-1"}]}
