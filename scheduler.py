@@ -30,7 +30,7 @@ MIN_MAX_GCO2 = [{"region": "CAISO_NORTH", "min": 54, "max": 263},
 
 WATTTIME_ENV = "credentials/WattTime.env"
 AZURE_ENV = "credentials/Azure.env"
-AWS_ENV = "credential/AWS.env"
+AWS_ENV = "credentials/AWS.env"
 TOKEN = ""
 
 def initialize_logger():
